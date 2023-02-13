@@ -1,0 +1,23 @@
+﻿<Window x:Class="Programming_124_Short_Video_Notes.Examples.Interfaces.InterfaceExamples"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Programming_124_Short_Video_Notes.Examples.Interfaces"
+        mc:Ignorable="d"
+        Title="InterfaceExamples" Height="450" Width="800">
+    <Grid>
+        <RichTextBox Height="NaN" Margin="542,63,55,125" Width="NaN">
+            <FlowDocument>
+                <Paragraph>
+                    <Run x:Name="runStudentListSorted" Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <ListBox x:Name="lbCohort" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="131,63,371,78"/>
+        <Button x:Name="btnSortByAverage" Content="Average" HorizontalAlignment="Left" Margin="131,372,0,0" VerticalAlignment="Top" Width="79" Height="35" Click="btnSortByAverage_Click"/>
+        <Button x:Name="btnFirstName" Content="First Name" HorizontalAlignment="Left" Margin="240,372,0,0" VerticalAlignment="Top" Width="80" Height="35" Click="btnFirstName_Click" />
+        <Button x:Name="btnDescending" Content="Descending Average" HorizontalAlignment="Left" Margin="340,372,0,0" VerticalAlignment="Top" Width="80" Height="35" Click="btnDescending_Click" />
+
+    </Grid>
+</Window>
