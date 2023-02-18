@@ -23,7 +23,8 @@ namespace Programming_124_Short_Video_Notes
         public MainWindow()
         {
             InitializeComponent();
-            new Examples.Interfaces.InterfaceExamples().Show();
+
+
         }
 
         private void btnInterfacesExample_Click(object sender, RoutedEventArgs e)

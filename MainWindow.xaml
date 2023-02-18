@@ -6,8 +6,5 @@
         xmlns:local="clr-namespace:Programming_124_Short_Video_Notes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button x:Name="btnInterfacesExample" Content="Interfaces" HorizontalAlignment="Left" Margin="51,42,0,0" VerticalAlignment="Top" Height="36" Width="139" Click="btnInterfacesExample_Click"/>
-
-    </Grid>
+    <Grid/>
 </Window>

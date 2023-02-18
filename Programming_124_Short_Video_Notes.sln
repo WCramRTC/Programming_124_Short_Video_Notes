@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33402.96
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programming_124_Short_Video_Notes", "Programming_124_Short_Video_Notes.csproj", "{810BED42-1904-4280-A324-1EBAF4AB4485}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Programming_124_Short_Video_Notes", "Programming_124_Short_Video_Notes.csproj", "{810BED42-1904-4280-A324-1EBAF4AB4485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary", "MyLibrary\MyLibrary.csproj", "{51AB2123-54A4-4565-B597-A94A23E64402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{810BED42-1904-4280-A324-1EBAF4AB4485}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{810BED42-1904-4280-A324-1EBAF4AB4485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{810BED42-1904-4280-A324-1EBAF4AB4485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51AB2123-54A4-4565-B597-A94A23E64402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51AB2123-54A4-4565-B597-A94A23E64402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51AB2123-54A4-4565-B597-A94A23E64402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51AB2123-54A4-4565-B597-A94A23E64402}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
