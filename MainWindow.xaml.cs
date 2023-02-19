@@ -23,6 +23,7 @@ namespace Programming_124_Short_Video_Notes
         public MainWindow()
         {
             InitializeComponent();
+            new Programming_124_Short_Video_Notes.Examples.Generic.GenericExample().Show();
 
 
         }

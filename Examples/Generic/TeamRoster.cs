@@ -23,10 +23,10 @@ namespace Programming_124_Short_Video_Notes.Examples.Generic
 
         public IEnumerator GetEnumerator()
         {
-            return new TeamRosterEnum<T>(ref _roster);
+            return new TeamRosterEnum(ref _roster);
         }
 
-        private class TeamRosterEnum<T> : IEnumerator where T: Player
+        private class TeamRosterEnum : IEnumerator 
         {
             List<T> _roster;
             int index = -1;

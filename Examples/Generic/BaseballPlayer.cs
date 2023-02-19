@@ -22,5 +22,10 @@ namespace Programming_124_Short_Video_Notes.Examples.Generic
         public int Runs { get => _runs; set => _runs = value; }
         public int Hits { get => _hits; set => _hits = value; }
         public int AtBat { get => _atBat; set => _atBat = value; }
+
+        public override string ToString()
+        {
+            return base.ToString() + $"{AtBat} - {Runs} - {AtBat}";
+        }
     }
 }
