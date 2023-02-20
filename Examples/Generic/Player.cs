@@ -19,5 +19,10 @@ namespace Programming_124_Short_Video_Notes.Examples.Generic
 
         public string Name { get => _name; set => _name = value; }
         public string Number { get => _number; set => _number = value; }
+
+        public override string ToString()
+        {
+            return $"{_name} - Number {_number} ";
+        }
     }
 }

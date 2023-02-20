@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Prog_124_ClassLibrary;
+using AnotherLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,9 +25,11 @@ namespace Programming_124_Short_Video_Notes
         public MainWindow()
         {
             InitializeComponent();
-            new Programming_124_Short_Video_Notes.Examples.Generic.GenericExample().Show();
+            new Examples.Generic.GenericExample().Show();
+            Class1 cl1 = new Class1();
+            int diceRoll = "20".RollDice();
 
-
+            MessageBox.Show(diceRoll.ToString());   
         }
 
         private void btnInterfacesExample_Click(object sender, RoutedEventArgs e)

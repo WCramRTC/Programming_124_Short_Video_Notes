@@ -12,4 +12,15 @@
     <Folder Include="Examples\Exceptions\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AnotherLibrary\AnotherLibrary.csproj" />
+    <ProjectReference Include="..\Prog_124_ClassLibrary\Prog_124_ClassLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MyLibrary">
+      <HintPath>..\MyLibrary\bin\Debug\net6.0\MyLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
